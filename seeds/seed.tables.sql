@@ -16,20 +16,24 @@ BEGIN;
       '$2a$10$fCWkaGbt7ZErxaxclioLteLUgg4Q3Rp09WW0s/wSLxDKYsaGYUpjG'
   );
 
-INSERT INTO "language" ("id", "name", "user_id")
-VALUES
-  (1, 'French', 1);
+  INSERT INTO "language"
+    ("id", "name", "user_id")
+  VALUES
+    (1, 'Spanish', 1);
 
-INSERT INTO "word" ("id", "language_id", "original", "translation", "next")
-VALUES
-  (1, 1, 'entraine toi', 'practice', 2),
-  (2, 1, 'bonjour', 'hello', 3),
-  (3, 1, 'maison', 'house', 4),
-  (4, 1, 'développeur', 'developer', 5),
-  (5, 1, 'traduire', 'translate', 6),
-  (6, 1, 'incroyable', 'amazing', 7),
-  (7, 1, 'chien', 'dog', 8),
-  (8, 1, 'chat', 'cat', null);
+  INSERT INTO "word"
+    ("id", "language_id", "original", "translation", "next")
+  VALUES
+    (1, 1, 'el programacíon', 'programming', 2),
+    (2, 1, 'la computadora', 'computer', 3),
+    (3, 1, "la programadora", 'programmer', 4),
+    (4, 1, "el algoritmo", 'algorithm', 5),
+    (5, 1, 'el aplicacíon', 'application', 6),
+    (6, 1, 'el compilador', 'compiler', 7),
+    (7, 1, 'el objeto', 'object', 8),
+    (8, 1, 'la interfaz', 'interface', 9),
+    (9, 1, 'el servidor', 'server', 10),
+    (10, 1, 'el cliente', 'client', null);
 
   UPDATE "language" SET head = 1 WHERE id = 1;
 
