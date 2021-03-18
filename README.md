@@ -1,5 +1,14 @@
 # Spaced repetition API!
 
+Client repo: 
+API repo: 
+Live API hosted on Heroku: 
+
+## Application Summary
+
+This spaced repetition application helps people memorize a foreign language. The app will display words in one language and ask you to recall the corresponding words in a second language. This app functions off a created algorithm which determines which words to test the user on. This full-stack application also features a React bootstrapped front-end which displays words and allows the user to enter answers. It also has an Express backend with a PostgreSQL database which allows the user to save their progress and pick up and continue learning at any point.
+
+
 ## Local dev setup
 
 If using user `dunder-mifflin`:
