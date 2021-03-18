@@ -4,7 +4,7 @@ module.exports = {
   NODE_ENV: process.env.NODE_ENV || "development",
   DB_URL:
     process.env.DB_URL ||
-    "postgresql://dunder-mifflin@localhost/spaced-repetition",
+    "postgresql://elinamcgill@localhost/spaced-repetition",
   JWT_SECRET: process.env.JWT_SECRET || "change-this-secret",
   JWT_EXPIRY: process.env.JWT_EXPIRY || "3h",
 };
