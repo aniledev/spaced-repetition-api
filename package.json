@@ -1,7 +1,7 @@
 {
-  "name": "express-boilerplate",
+  "name": "spaced-repetition-api",
   "version": "0.0.1",
-  "description": "",
+  "description": "Back end server for spaced repetition application",
   "main": "src/server.js",
   "scripts": {
     "test": "mocha --require test/setup.js",
@@ -12,7 +12,11 @@
     "deploy": "git push heroku master"
   },
   "keywords": [],
-  "author": "Tom `tomatao` HT <tomht@thinkful.com>",
+  "engines": {
+    "node": "14.15.1",
+    "npm": "6.14.8"
+  },
+  "author": "Elina McGill",
   "license": "MIT",
   "dependencies": {
     "body-parser": "^1.19.0",
